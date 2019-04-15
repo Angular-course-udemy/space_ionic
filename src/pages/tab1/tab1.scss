@@ -1,0 +1,9 @@
+page-tab1 {
+  .toolbar-background-md {
+    background-image: url('https://spaceplace.nasa.gov/galaxy/en/galaxies.en.jpg');
+    background-size: cover;
+  }
+  .toolbar-title-md{
+    color: color($colors, light);
+  }
+}

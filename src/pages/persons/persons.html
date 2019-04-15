@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title text-end>{{person.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center >
+  <img [src]="person.img" [alt]="person.name" padding>
+  <h1>{{person.name}}</h1>
+  <p>{{person.craft}}</p>
+  <button ion-button
+    block
+    color="dark"
+    navPop>Back to Space</button>
+  <button ion-button
+    block
+    color="medium"
+    (click)="goToGalaxy()">Whant to see galaxy?</button>
+</ion-content>
